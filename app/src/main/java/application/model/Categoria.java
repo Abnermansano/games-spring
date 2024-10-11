@@ -31,5 +31,16 @@ public class Categoria {
     public void setId(long id) {
         this.id = id;
     }
-    public
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public Set<jogo> getJogos() {
+        return jogos;
+    }
+    public void setJogos(Set<Jogo> jogos) {
+        this.jogos = jogos;
+    }
 }
